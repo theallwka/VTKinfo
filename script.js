@@ -43,8 +43,8 @@ window.closeModal = function() {
   document.getElementById("modal").style.display = "none";
 };
 
-window.onclick = function(e) {
-  if (e.target.id === "modal") {
+document.getElementById("modal").addEventListener("click", function(e) {
+  if (e.target === this) {
     closeModal();
   }
-};
+});
