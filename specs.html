@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>InfoCollege - Специальности</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">VTKinfo</div>
+  <nav class="nav">
+    <a href="index.html"><b>Главная</b></a>
+    <a href="onas.html"><b>О нас</b></a>
+    <a href="specs.html"><b>Специальности</b></a>
+  </nav>
+</header>
+
+<h1>В ВТК представлено множество специальностей</h1>
+
+<div class="box">
+  <img src="img/vych.jpg" width="800">
+
+  <div class="cards">
+
+    <div class="card"><h3>Архитектура</h3><button onclick="openModal('arch')">Больше</button></div>
+    <div class="card"><h3>Вычислительная техника</h3><button onclick="openModal('vych')">Больше</button></div>
+    <div class="card"><h3>Мебельное производство</h3><button onclick="openModal('meb')">Больше</button></div>
+    <div class="card"><h3>Обогащение полезных ископаемых</h3><button onclick="openModal('obo')">Больше</button></div>
+    <div class="card"><h3>Программное обеспечение</h3><button onclick="openModal('po')">Больше</button></div>
+    <div class="card"><h3>Профессиональное обучение</h3><button onclick="openModal('prof')">Больше</button></div>
+    <div class="card"><h3>Сварочное дело</h3><button onclick="openModal('svar')">Больше</button></div>
+    <div class="card"><h3>Строительство дорог</h3><button onclick="openModal('dorog')">Больше</button></div>
+    <div class="card"><h3>Строительство зданий</h3><button onclick="openModal('zdan')">Больше</button></div>
+    <div class="card"><h3>Теплотехническое оборудование</h3><button onclick="openModal('teplo')">Больше</button></div>
+    <div class="card"><h3>ТО автотранспорта</h3><button onclick="openModal('to')">Больше</button></div>
+    <div class="card"><h3>Инженерные технологии</h3><button onclick="openModal('inj')">Больше</button></div>
+    <div class="card"><h3>Дизайн интерьера</h3><button onclick="openModal('diz')">Больше</button></div>
+    <div class="card"><h3>Электрооборудование</h3><button onclick="openModal('elec')">Больше</button></div>
+    <div class="card"><h3>Мехатроника</h3><button onclick="openModal('mexa')">Больше</button></div>
+    <div class="card"><h3>Механизация сельского хозяйства</h3><button onclick="openModal('sx')">Больше</button></div>
+    <div class="card"><h3>Швейное производство</h3><button onclick="openModal('shvey')">Больше</button></div>
+    <div class="card"><h3>Геодезия</h3><button onclick="openModal('geo')">Больше</button></div>
+    <div class="card"><h3>Сметное дело</h3><button onclick="openModal('smet')">Больше</button></div>
+    <div class="card"><h3>Организация тепличного хозяйства</h3><button onclick="openModal('org')">Больше</button></div>
+    <div class="card"><h3>Парикмахерское искусство</h3><button onclick="openModal('par')">Больше</button></div>
+
+  </div>
+</div>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img id="modalImg" src="">
+    <h2 id="modalTitle"></h2>
+
+    <p><b>Длительность:</b> <span id="modalDuration"></span></p>
+    <p><b>База:</b> <span id="modalBase"></span></p>
+    <p><b>Код:</b> <span id="modalCode"></span></p>
+
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+<div class="box">
+  <h1>ОТПРАВИТЬ ЗАЯВКУ НА ПОСТУПЛЕНИЕ</h1>
+<form>
+  <label>ФИО:</label><br>
+  <input type="text" name="name"><br><br>
+  <label>Код специальности:</label><br>
+  <input type="text" name="code"><br><br>
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+  <button type="button" onclick="sendForm()"><b>Отправить</b></button>
+</form>
+</div>
+  <footer>
+
+    <p>
+      Адрес: ул. Жумабека Ташенова 115<br>
+      Номер: +7 (7162) 50-90-10<br>
+      © 2026 ГКПП "Высший технический колледж, г.Кокшетау"
+    </p>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=ВТК%20Кокшетау%20Ташенова%20115&output=embed">
+      </iframe>
+    </div>
+
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
