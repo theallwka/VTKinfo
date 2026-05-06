@@ -39,12 +39,11 @@ window.openModal = function(key) {
   document.getElementById("modal").style.display = "flex";
 };
 
-window.closeModal = function() {
-  document.getElementById("modal").style.display = "none";
-};
+const modal = document.getElementById("modal");
+const modalContent = document.querySelector(".modal-content");
 
-document.getElementById("modal").addEventListener("click", function(e) {
-  if (e.target === this) {
+modal.addEventListener("click", function(e) {
+  if (!modalContent.contains(e.target)) {
     closeModal();
   }
 });
