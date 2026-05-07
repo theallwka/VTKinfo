@@ -110,12 +110,9 @@ footer iframe {
   height: 450px;
 }
 
-a {
+a, p {
 	text-decoration: none;
-}
-
-p {
-	text-decoration: none;
+  color: white;
 }
 
 img {
