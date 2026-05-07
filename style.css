@@ -110,6 +110,10 @@ footer iframe {
   height: 450px;
 }
 
+a {
+	text-decoration: none;
+}
+
 img {
   border-radius: 10px;
   margin-bottom: 20px;
