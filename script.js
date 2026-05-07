@@ -26,7 +26,6 @@ const data = {
   par: { title:"Парикмахер", img:"par.jpg", duration:"2 года", base:"9 классов", code:"0506000", desc:"Стрижки и уход" }
 };
 
-// 🔥 ВАЖНО: делаем глобально, чтобы работал onclick
 window.openModal = function(key) {
   const item = data[key];
 
