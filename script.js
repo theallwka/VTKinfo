@@ -1,4 +1,4 @@
-function sendForm() {
+function zayavka() {
   alert("Форма отправлена!");
 }
 
