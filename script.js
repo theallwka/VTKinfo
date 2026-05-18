@@ -29,12 +29,12 @@ const data = {
 window.openModal = function(key) {
   const item = data[key];
 
-  document.getElementById("modalTitle").textContent = item.title;
-  document.getElementById("modalImg").src = item.img;
-  document.getElementById("modalDuration").textContent = item.duration;
-  document.getElementById("modalBase").textContent = item.base;
-  document.getElementById("modalCode").textContent = item.code;
-  document.getElementById("modalDesc").textContent = item.desc;
+  document.getElementById("modaltitle").textContent = item.title;
+  document.getElementById("modalimg").src = item.img;
+  document.getElementById("modaldlitelnost").textContent = item.dlitelnost;
+  document.getElementById("modalbaza").textContent = item.baza;
+  document.getElementById("modalkod").textContent = item.kod;
+  document.getElementById("modalopisanie").textContent = item.opisanie;
 
   document.getElementById("modal").style.display = "flex";
 };
