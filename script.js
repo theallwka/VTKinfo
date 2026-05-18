@@ -3,7 +3,7 @@ function zayavka() {
 }
 
 const data = {
-  arch: { title:"Архитектура", img:"img/arch.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", kod:"1410000", opisanie:"Проектирование зданий" },
+  arch: { title:"Архитектура", img:"img/arch.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"1410000", opisanie:"Проектирование зданий" },
   vych: { title:"Вычислительная техника", img:"img/vych.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", kod:"1304000", opisanie:"Компьютеры и сети" },
   meb: { title:"Мебельное производство", img:"img/meb.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", kod:"0716000", opisanie:"Производство мебели" },
   obo: { title:"Обогащение полезных ископаемых", img:"img/obo.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", kod:"0724000", opisanie:"Переработка сырья" },
