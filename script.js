@@ -23,7 +23,7 @@ const data = {
   geo: { title:"Геодезия", img:"img/geo.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"1407000", opisanie:"Измерения земли" },
   smet: { title:"Сметное дело", img:"img/smet.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"0732000", opisanie:"Строительные расчёты" },
   org: { title:"Тепличное хозяйство", img:"img/org.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"1502000", opisanie:"Выращивание растений" },
-  par: { title:"Парикмахер", img:"par.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"0506000", opisanie:"Стрижки и уход" }
+  par: { title:"Парикмахер", img:"img/par.jpg", dlitelnost:"3 года 10 месяцев", baza:"9-11 классов", yazik:"Каз/Рус", kod:"0506000", opisanie:"Стрижки и уход" }
 };
 
 window.openModal = function(key) {
