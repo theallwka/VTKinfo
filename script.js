@@ -33,6 +33,7 @@ window.openModal = function(key) {
   document.getElementById("modalImg").src = item.img;
   document.getElementById("modalDlitelnost").textContent = item.dlitelnost;
   document.getElementById("modalBaza").textContent = item.baza;
+  document.getElementById("modalYazik").textContent = item.yazik;
   document.getElementById("modalKod").textContent = item.kod;
   document.getElementById("modalOpisanie").textContent = item.opisanie;
 
