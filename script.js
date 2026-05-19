@@ -1,5 +1,5 @@
 function zayavka() {
-  alert("Форма отправлена!");
+  alert("Ваша заявка успешно отправлена!");
 }
 
 const data = {
